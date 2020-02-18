@@ -2,7 +2,7 @@ import React from "react";
 
 const RecentPosts = () => {
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-white py-8">
       <div className="container mx-auto flex flex-wrap pt-4 pb-12">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Title
@@ -17,7 +17,7 @@ const RecentPosts = () => {
               href="#"
               className="flex flex-wrap no-underline hover:no-underline"
             >
-              <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+              <p className="w-full text-gray-700 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
               <div className="w-full font-bold text-xl text-gray-800 px-6">
@@ -44,7 +44,7 @@ const RecentPosts = () => {
               href="#"
               className="flex flex-wrap no-underline hover:no-underline"
             >
-              <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+              <p className="w-full text-gray-700 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
               <div className="w-full font-bold text-xl text-gray-800 px-6">
@@ -71,7 +71,7 @@ const RecentPosts = () => {
               href="#"
               className="flex flex-wrap no-underline hover:no-underline"
             >
-              <p className="w-full text-gray-600 text-xs md:text-sm px-6">
+              <p className="w-full text-gray-700 text-xs md:text-sm px-6">
                 xGETTING STARTED
               </p>
               <div className="w-full font-bold text-xl text-gray-800 px-6">

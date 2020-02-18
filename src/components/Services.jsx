@@ -1,61 +1,44 @@
 import React from "react";
+import Service from "./Service.jsx";
+import goals from "../images/goals.svg";
+import food from "../images/food.svg";
+import feedback from "../images/feedback.svg";
 
+const serv = [
+  {
+    name: "Individuelle Trainingsplanung",
+    description: `Wir planen dein Training individuell auf dich abgestimmt - abhängig von deine Zielen,
+      deinem Alltag, dem Equipment das dir zur Verfügung steht und vielen anderen Faktoren.
+      Dabei benutzen wir wissenschaftlich fundierte Trainingsmethoden `,
+    svg: goals
+  },
+  {
+    name: "Ernährungscoaching",
+    description: "foo bla bla",
+    svg: food
+  },
+  {
+    name: "Kontinuierliches Feedback",
+    description: "foo bla bla",
+    svg: feedback
+  }
+];
 const Services = () => {
+  let counter = 0;
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-white py-8">
       <div className="container max-w-5xl mx-auto m-8">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
-          Title
+          So funktioniert das Coaching
         </h1>
-        <div className="w-full mb-4">
+        <div className="w-full mb-12">
           <div className="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
         </div>
 
-        <div className="flex flex-wrap">
-          <div className="w-5/6 sm:w-1/2 p-6">
-            <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-              Lorem ipsum dolor sit amet
-            </h3>
-            <p className="text-gray-600 mb-8">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-              at ipsum eu nunc commodo posuere et sit amet ligula.
-              <br />
-              <br />
-              Images from:{" "}
-              <a
-                className="text-orange-500 underline"
-                href="https://undraw.co/"
-              >
-                undraw.co
-              </a>
-            </p>
-          </div>
-          <div className="w-full sm:w-1/2 p-6"></div>
-        </div>
-
-        <div className="flex flex-wrap flex-col-reverse sm:flex-row">
-          <div className="w-full sm:w-1/2 p-6 mt-6"></div>
-          <div className="w-full sm:w-1/2 p-6 mt-6">
-            <div className="align-middle">
-              <h3 className="text-3xl text-gray-800 font-bold leading-none mb-3">
-                Lorem ipsum dolor sit amet
-              </h3>
-              <p className="text-gray-600 mb-8">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-                at ipsum eu nunc commodo posuere et sit amet ligula.
-                <br />
-                <br />
-                Images from:{" "}
-                <a
-                  className="text-orange-500 underline"
-                  href="https://undraw.co/"
-                >
-                  undraw.co
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
+        {serv.map(v => {
+          const even = counter++ % 2 === 0;
+          return <Service key={v.name} even={even} {...v}></Service>;
+        })}
       </div>
     </section>
   );

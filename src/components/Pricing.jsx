@@ -2,7 +2,7 @@ import React from "react";
 
 const Pricing = () => {
   return (
-    <section className="bg-gray-100 py-8">
+    <section className="bg-white py-8">
       <div className="container mx-auto px-2 pt-4 pb-12 text-gray-800">
         <h1 className="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
           Pricing
@@ -13,7 +13,7 @@ const Pricing = () => {
 
         <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
           <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div className="flex-1 bg-white text-gray-700 rounded-t rounded-b-none overflow-hidden shadow">
               <div className="p-8 text-3xl font-bold text-center border-b-4">
                 Free
               </div>
@@ -24,7 +24,7 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              <div className="w-full pt-6 text-3xl text-gray-700 font-bold text-center">
                 £0 <span className="text-base">for one user</span>
               </div>
               <div className="flex items-center justify-center">
@@ -61,7 +61,7 @@ const Pricing = () => {
           </div>
 
           <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
-            <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+            <div className="flex-1 bg-white text-gray-700 rounded-t rounded-b-none overflow-hidden shadow">
               <div className="p-8 text-3xl font-bold text-center border-b-4">
                 Pro
               </div>
@@ -72,7 +72,7 @@ const Pricing = () => {
               </ul>
             </div>
             <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
+              <div className="w-full pt-6 text-3xl text-gray-700 font-bold text-center">
                 £x.99 <span className="text-base">/ per user</span>
               </div>
               <div className="flex items-center justify-center">

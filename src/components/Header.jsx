@@ -15,7 +15,7 @@ function Header() {
 
   return (
     <header className="bg-skoll fixed w-full z-30 top-0 text-white">
-      <div className="flex flex-wrap items-center justify-between p-4 px-10 h-16">
+      <div className="flex flex-wrap items-center justify-between px-10 h-16">
         <Link className="flex items-center no-underline text-white" to="/">
           <span className="font-bold text-2xl">{site.siteMetadata.title}</span>
         </Link>
