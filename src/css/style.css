@@ -3,11 +3,3 @@
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
-
-.gradient {
-  background: linear-gradient(
-    102deg,
-    rgba(51, 54, 65, 1) 25%,
-    rgba(52, 215, 43, 1) 100%
-  );
-}

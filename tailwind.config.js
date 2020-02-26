@@ -1,13 +1,13 @@
-// See https://tailwindcss.com/docs/configuration for details
+// tailwind.config.js
+const defaultTheme = require("tailwindcss/defaultTheme");
+
 module.exports = {
   theme: {
     extend: {
-      colors: {
-        skoll: "#333641"
+      fontFamily: {
+        sans: ["Inter var", ...defaultTheme.fontFamily.sans]
       }
     }
   },
-  variants: { backgroundColor: ["hover", "focus", "active"] },
-  // https://github.com/tailwindcss/custom-forms
-  plugins: [require("@tailwindcss/custom-forms")]
+  plugins: [require("@tailwindcss/ui")]
 };

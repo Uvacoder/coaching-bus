@@ -68,7 +68,9 @@ function SEO({ description, lang, meta, keywords, title }) {
         .concat(meta)}
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
-    />
+    >
+      <link rel="stylesheet" href="https://rsms.me/inter/inter.css"></link>
+    </Helmet>
   );
 }
 

@@ -11,7 +11,7 @@ export default function Template({ data }) {
     <Layout>
       <div className="p-8 max-w-5xl mx-auto text-skoll">
         <h1 className="text-5xl font-bold">{frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: html }} />
+        <div id="markdown-content" dangerouslySetInnerHTML={{ __html: html }} />
       </div>
     </Layout>
   );
