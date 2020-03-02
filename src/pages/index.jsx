@@ -5,6 +5,10 @@ import SEO from "../components/SEO";
 import { graphql } from "gatsby";
 import Hero from "../components/Hero";
 import Features from "../components/Features/Features";
+import About from "../components/About";
+import Pricing from "../components/Pricing";
+import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
 
 function IndexPage() {
   return (
@@ -14,7 +18,11 @@ function IndexPage() {
         title="Home"
       />
       <Hero />
+      <About />
       <Features />
+      <Testimonials />
+      <FAQ />
+      <Pricing />
     </Layout>
   );
 }

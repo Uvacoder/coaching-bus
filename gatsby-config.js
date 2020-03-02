@@ -33,7 +33,7 @@ module.exports = {
         background_color: `#333641`,
         theme_color: `#333641`,
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`
+        icon: `src/images/logo.svg`
       }
     },
     {
