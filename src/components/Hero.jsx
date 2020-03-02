@@ -1,68 +1,68 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import herosvg from "../images/hero.svg";
+import Header from "../components/Header";
+import hero from "../images/hero.jpg";
 
 const Hero = () => {
   return (
-    <>
-      <div className="pt-24 container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
-        <div className="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left">
-          <p className="uppercase tracking-loose w-full">
-            What business are you?
-          </p>
-          <h1 className="my-4 text-5xl font-bold leading-tight">
-            Main Hero Message to sell yourself!
-          </h1>
-          <p className="leading-normal text-2xl mb-8">
-            Sub-hero message, not too long and not too short. Make it just
-            right!
-          </p>
+    <div>
+      <div className="relative bg-white overflow-hidden">
+        <div className="max-w-screen-xl mx-auto ">
+          <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+            <Header></Header>
 
-          <button className="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg">
-            Subscribe
-          </button>
+            <div className="mt-10 mx-auto max-w-screen-xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+              <div className="sm:text-center lg:text-left">
+                <h2 className="text-4xl tracking-tight leading-10 font-extrabold text-gray-900 sm:text-5xl sm:leading-none md:text-6xl">
+                  Endlich deine
+                  <br />
+                  <span className="text-indigo-600">Ziele erreichen</span>
+                </h2>
+                <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  Bist du ein Sportler der stärker und schneller werden möchte?
+                  Oder möchtest du einfach besser nackt aussehen? Egal was deine
+                  Ziele sind, ich bin hier um dir zu helfen. Mit individueller
+                  Betreuung angepasst auf dich als Person.
+                </p>
+                <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
+                  <div className="rounded-md shadow">
+                    <a
+                      href="#"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    >
+                      Erzähl mir mehr
+                    </a>
+                  </div>
+                  <div className="mt-3 sm:mt-0 sm:ml-3">
+                    <a
+                      href="#"
+                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-indigo-700 bg-indigo-100 hover:text-indigo-600 hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out md:py-4 md:text-lg md:px-10"
+                    >
+                      Schreib mir
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <svg
+              className="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-white transform translate-x-1/2"
+              fill="currentColor"
+              viewBox="0 0 100 100"
+              preserveAspectRatio="none"
+            >
+              <polygon points="50,0 100,0 50,100 0,100" />
+            </svg>
+          </div>
         </div>
-        <div className="w-full md:w-3/5 py-6 text-center">
-          <img src={herosvg}></img>
+        <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <img
+            className="h-72 w-full object-cover md:h-96 lg:w-full lg:h-full"
+            src={hero}
+            alt=""
+          />
         </div>
       </div>
-      <div className="relative -mt-12 lg:-mt-24">
-        <svg
-          viewBox="0 0 1428 174"
-          version="1.1"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <g stroke="none" strokeWidth="1" fill="#fff" fillRule="evenodd">
-            <g
-              transform="translate(-2.000000, 44.000000)"
-              fill="#fff"
-              fillRule="nonzero"
-            >
-              <path
-                d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496"
-                opacity="0.100000001"
-              ></path>
-              <path
-                d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z"
-                opacity="0.100000001"
-              ></path>
-              <path
-                d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z"
-                id="Path-4"
-                opacity="0.200000003"
-              ></path>
-            </g>
-            <g
-              transform="translate(-4.000000, 76.000000)"
-              fill="#fff"
-              fillRule="nonzero"
-            >
-              <path d="M0.457,34.035 C57.086,53.198 98.208,65.809 123.822,71.865 C181.454,85.495 234.295,90.29 272.033,93.459 C311.355,96.759 396.635,95.801 461.025,91.663 C486.76,90.01 518.727,86.372 556.926,80.752 C595.747,74.596 622.372,70.008 636.799,66.991 C663.913,61.324 712.501,49.503 727.605,46.128 C780.47,34.317 818.839,22.532 856.324,15.904 C922.689,4.169 955.676,2.522 1011.185,0.432 C1060.705,1.477 1097.39,3.129 1121.236,5.387 C1161.703,9.219 1208.621,17.821 1235.4,22.304 C1285.855,30.748 1354.351,47.432 1440.886,72.354 L1441.191,104.352 L1.121,104.031 L0.457,34.035 Z"></path>
-            </g>
-          </g>
-        </svg>
-      </div>
-    </>
+    </div>
   );
 };
 export default Hero;
