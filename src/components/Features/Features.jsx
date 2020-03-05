@@ -5,26 +5,13 @@ const Features = () => {
   // eslint-disable-next-line no-unused-vars
   const feats = [
     {
-      title: "Individuelle Trainingsplanung",
-      text: `Keine starren Ernährungspläne - stattdessen eignest du dir
-    Gewohnheiten an, die dir auch langfristig dabei helfen, dich besser
-    zu ernähren. Ein Mix aus den neusten wissenschaftlichen
-    Erkenntnissen der Ernährungswissenschaft und der
-    Verhaltenspsychologie.`
-    },
-    {
-      title: "Ernährungscoaching",
-      text: `Deine Trainingsplanung ist immer genau abgestimmt auf deine
-    Ziele, dein Equipment, deinen Alltag und deinen anderen
-    persönlichen Begebenheiten.`
+      title: "Trainingsplanung",
+      text: `Individuell auf dich zugeschnitten - abhängig von deinem Alltag, deinem derzeitigen Trainingsstand,
+      deinen Zielen und deinen Trainingsmöglichkeiten.`
     },
     {
       title: "Kommunikation",
-      text: `Keine starren Ernährungspläne - stattdessen eignest du dir
-    Gewohnheiten an, die dir auch langfristig dabei helfen, dich besser
-    zu ernähren. Ein Mix aus den neusten wissenschaftlichen
-    Erkenntnissen der Ernährungswissenschaft und der
-    Verhaltenspsychologie.`
+      text: `Wir halten ständig Kontakt und können so auf Änderungen schnell reagieren. Auch bei Fragen und Sorgen kannst du mir jederzeit schreiben.`
     },
     {
       title: "Ernährungscoaching",

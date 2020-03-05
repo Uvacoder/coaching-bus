@@ -14,7 +14,7 @@ const About = () => {
         >
           <defs>
             <pattern
-              id="svg-pattern-squares-1"
+              id="about-squares-1"
               x="0"
               y="0"
               width="20"
@@ -31,7 +31,7 @@ const About = () => {
               />
             </pattern>
           </defs>
-          <rect width="784" height="404" fill="url(#svg-pattern-squares-1)" />
+          <rect width="784" height="404" fill="url(#about-squares-1)" />
         </svg>
 
         <svg
@@ -43,7 +43,7 @@ const About = () => {
         >
           <defs>
             <pattern
-              id="svg-pattern-squares-2"
+              id="about-squares-2"
               x="0"
               y="0"
               width="20"
@@ -60,7 +60,7 @@ const About = () => {
               />
             </pattern>
           </defs>
-          <rect width="404" height="784" fill="url(#svg-pattern-squares-2)" />
+          <rect width="404" height="784" fill="url(#about-squares-2)" />
         </svg>
 
         <div className="relative lg:flex lg:items-center">

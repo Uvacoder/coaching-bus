@@ -15,7 +15,7 @@ const Pricing = () => {
             </p>
             <p className="mt-2 text-xl leading-7 text-gray-300">
               Entscheide selbst wieviel Unterstützung du brauchst - gerade am
-              Anfang lohnt sich oft eine internsivere Zusammenarbeit.
+              Anfang lohnt sich oft eine intensivere Zusammenarbeit.
             </p>
           </div>
         </div>

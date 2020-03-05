@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 import logo from "../images/logo.svg";
 import Transition from "./Transition";
 
@@ -49,29 +50,17 @@ const Header = props => {
           </div>
           <div className="hidden md:block md:ml-10 md:pr-4">
             <a
-              href="#"
-              className="font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Product
-            </a>
-            <a
-              href="#"
+              href="https://pr.skollcoaching.com"
               className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
             >
-              Features
+              PR Tracker
             </a>
-            <a
-              href="#"
-              className="ml-8 font-medium text-gray-500 hover:text-gray-900 focus:outline-none focus:text-gray-900 transition duration-150 ease-in-out"
-            >
-              Marketplace
-            </a>
-            <a
-              href="#"
+            <AnchorLink
+              to="/#coaching-inquiry"
               className="ml-8 font-medium text-indigo-600 hover:text-indigo-900 focus:outline-none focus:text-indigo-700 transition duration-150 ease-in-out"
             >
-              Log in
-            </a>
+              Coaching Anfrage
+            </AnchorLink>
           </div>
         </nav>
       </div>
@@ -120,37 +109,19 @@ const Header = props => {
               </div>
               <div className="px-2 pt-2 pb-3">
                 <a
-                  href="#"
-                  className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                >
-                  Product
-                </a>
-                <a
-                  href="#"
+                  href="https://pr.skollcoaching.com"
                   className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
                 >
-                  Features
-                </a>
-                <a
-                  href="#"
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                >
-                  Marketplace
-                </a>
-                <a
-                  href="#"
-                  className="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50 focus:outline-none focus:text-gray-900 focus:bg-gray-50 transition duration-150 ease-in-out"
-                >
-                  Company
+                  PR Tracker
                 </a>
               </div>
               <div>
-                <a
-                  href="#"
+                <AnchorLink
+                  to="/#coaching-inquiry"
                   className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100 hover:text-indigo-700 focus:outline-none focus:bg-gray-100 focus:text-indigo-700 transition duration-150 ease-in-out"
                 >
-                  Log in
-                </a>
+                  Coaching Anfrage
+                </AnchorLink>
               </div>
             </div>
           </div>

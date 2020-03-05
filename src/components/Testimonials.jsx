@@ -14,7 +14,7 @@ const Testimonials = () => {
         >
           <defs>
             <pattern
-              id="svg-pattern-squares-1"
+              id="testimonial-squares-1"
               x="0"
               y="0"
               width="20"
@@ -31,7 +31,7 @@ const Testimonials = () => {
               />
             </pattern>
           </defs>
-          <rect width="404" height="404" fill="url(#svg-pattern-squares-1)" />
+          <rect width="404" height="404" fill="url(#testimonial-squares-1)" />
         </svg>
 
         <div className="relative">

@@ -2,7 +2,10 @@ import React from "react";
 
 const CoachingInquiry = () => {
   return (
-    <form className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
+    <form
+      id="coaching-inquiry"
+      className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
+    >
       <div>
         <h2 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
           Coaching Anfrage

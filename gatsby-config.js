@@ -19,6 +19,7 @@ module.exports = {
         path: `${__dirname}/src/markdown-pages`
       }
     },
+    `gatsby-plugin-anchor-links`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

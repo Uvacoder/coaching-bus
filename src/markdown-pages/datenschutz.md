@@ -1,5 +1,5 @@
 ---
-path: "/datenschutzerklaerung"
+path: "/datenschutz"
 date: "2020-02-18"
 title: "Datenschutzerklärung"
 ---
