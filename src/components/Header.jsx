@@ -1,8 +1,9 @@
 import React, { useState } from "react";
-import logo from "../images/logo.svg";
 import PropTypes from "prop-types";
+import logo from "../images/logo.svg";
 import Transition from "./Transition";
 
+// eslint-disable-next-line max-lines-per-function
 const Header = props => {
   const [isExpanded, toggleExpansion] = useState(false);
 

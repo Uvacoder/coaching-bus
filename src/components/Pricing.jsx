@@ -1,5 +1,6 @@
 import React from "react";
 
+// eslint-disable-next-line max-lines-per-function
 const Pricing = () => {
   return (
     <div className="bg-gray-900">
@@ -21,7 +22,7 @@ const Pricing = () => {
       </div>
       <div className="mt-8 pb-12 bg-white sm:mt-12 sm:pb-16 lg:mt-16 lg:pb-24">
         <div className="relative">
-          <div className="absolute inset-0 h-3/4 bg-gray-900"></div>
+          <div className="absolute inset-0 h-3/4 bg-gray-900" />
           <div className="relative z-10 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="max-w-md mx-auto lg:max-w-5xl lg:grid lg:grid-cols-2 lg:gap-5">
               <div className="rounded-lg shadow-lg overflow-hidden">

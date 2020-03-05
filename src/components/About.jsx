@@ -3,7 +3,7 @@ import portrait from "../images/portrait.png";
 
 const About = () => {
   return (
-    <div className="bg-white overflow-hidden">
+    <div className="bg-gray-50 shadow-inner overflow-hidden">
       <div className="relative max-w-screen-xl mx-auto pt-20 pb-12 px-4 sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute top-full left-0 transform translate-x-80 -translate-y-24 lg:hidden"
@@ -78,9 +78,22 @@ const About = () => {
                   Über mich
                 </h1>
                 <p className="mt-4">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-                  expedita voluptas culpa sapiente alias molestiae. Numquam
-                  corrupti in laborum sed rerum et corporis.
+                  Früher war ich unsportlich und übergewichtig, habe oft
+                  versucht mit Fitness anzufangen und abzunehmen. Irgendwann hat
+                  es dann Klick gemacht - Ich habe mit dem Rauchen aufgehört,
+                  20kg abgenommen und hab angefangen, regelmäßig ins
+                  Fitnessstudio zu gehen.
+                  <br />
+                  <br />
+                  Mittlerweile bin ich leidenschaftlicher Powerlifter und
+                  unglaublich interessiert an der Theorie und Wissenschaft
+                  hinter Training und Ernährung. Ich hab es mir zum Ziel
+                  gemacht, anderen zu helfen womit ich selbst solange Probleme
+                  hatte - den richtigen Weg zu finden in einer Fitnessbranche
+                  voller Mythen und Gurus.
+                  <br />
+                  <br />
+                  Ich freue mich sehr darauf mit dir zusammenzuarbeiten!
                 </p>
               </div>
               <footer className="mt-8">
