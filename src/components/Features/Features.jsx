@@ -17,7 +17,15 @@ const Features = () => {
       title: "Ernährungscoaching",
       text: `Keine starren Ernährungspläne - stattdessen eignest du dir
     Gewohnheiten an, die dir auch langfristig dabei helfen, dich besser
-    zu ernähren. Ein Mix aus den neusten wissenschaftlichen
+    zu ernähren. Ein Mix aus den neuesten wissenschaftlichen
+    Erkenntnissen der Ernährungswissenschaft und der
+    Verhaltenspsychologie.`
+    },
+    {
+      title: "Ernährungscoaching",
+      text: `Keine starren Ernährungspläne - stattdessen eignest du dir
+    Gewohnheiten an, die dir auch langfristig dabei helfen, dich besser
+    zu ernähren. Ein Mix aus den neuesten wissenschaftlichen
     Erkenntnissen der Ernährungswissenschaft und der
     Verhaltenspsychologie.`
     }

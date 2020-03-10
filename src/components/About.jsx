@@ -81,14 +81,14 @@ const About = () => {
                   Früher war ich unsportlich und übergewichtig, habe oft
                   versucht mit Fitness anzufangen und abzunehmen. Irgendwann hat
                   es dann Klick gemacht - Ich habe mit dem Rauchen aufgehört,
-                  20kg abgenommen und hab angefangen, regelmäßig ins
+                  20kg abgenommen und habe angefangen, regelmäßig ins
                   Fitnessstudio zu gehen.
                   <br />
                   <br />
                   Mittlerweile bin ich leidenschaftlicher Powerlifter und
                   unglaublich interessiert an der Theorie und Wissenschaft
-                  hinter Training und Ernährung. Ich hab es mir zum Ziel
-                  gemacht, anderen zu helfen womit ich selbst solange Probleme
+                  hinter Training und Ernährung. Ich habe es mir zum Ziel
+                  gemacht, anderen zu helfen womit ich selbst so lange Probleme
                   hatte - den richtigen Weg zu finden in einer Fitnessbranche
                   voller Mythen und Gurus.
                   <br />
