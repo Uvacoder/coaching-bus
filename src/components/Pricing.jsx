@@ -129,10 +129,10 @@ const Pricing = () => {
                   </ul>
                   <div className="mt-6 rounded-md shadow">
                     <a
-                      href="#"
+                      href="#coaching-inquiry"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
-                      Get started
+                      Anfragen
                     </a>
                   </div>
                 </div>
@@ -151,7 +151,9 @@ const Pricing = () => {
                     </span>
                   </div>
                   <p className="mt-5 text-lg leading-7 text-gray-500">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Hier hast du jederzeit Zugriff auf mich bei Fragen und
+                    Problemen. Nach jeder Einheit kannst du mir Videos schicken
+                    und bekommst Feedback zu deiner Technik.
                   </p>
                 </div>
                 <div className="px-6 pt-6 pb-8 bg-gray-50 sm:p-10 sm:pt-6">
@@ -173,7 +175,7 @@ const Pricing = () => {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        Pariatur quod similique
+                        Alle Leistungen der Basisvariante
                       </p>
                     </li>
                     <li className="mt-4 flex items-start">
@@ -193,7 +195,7 @@ const Pricing = () => {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        Sapiente libero doloribus modi nostrum
+                        Maximal 24 Stunden Reaktionszeit
                       </p>
                     </li>
                     <li className="mt-4 flex items-start">
@@ -213,7 +215,7 @@ const Pricing = () => {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        Vel ipsa esse repudiandae excepturi
+                        Kurzfristige Anpassungen des Plans
                       </p>
                     </li>
                     <li className="mt-4 flex items-start">
@@ -233,16 +235,16 @@ const Pricing = () => {
                         </svg>
                       </div>
                       <p className="ml-3 text-base leading-6 text-gray-700">
-                        Itaque cupiditate adipisci quibusdam
+                        Perfekt für den Einstieg
                       </p>
                     </li>
                   </ul>
                   <div className="mt-6 rounded-md shadow">
                     <a
-                      href="#"
+                      href="#coaching-inquiry"
                       className="flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-gray-900 hover:bg-gray-800 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out"
                     >
-                      Get started
+                      Anfragen
                     </a>
                   </div>
                 </div>
