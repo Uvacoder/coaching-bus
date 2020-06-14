@@ -6,36 +6,36 @@ const questions = [
   {
     question: "Gibt es eine Mindestlaufzeit?",
     answer: `Wir arbeiten mindestens 4 Wochen zusammen.
-    Das gibt uns Zeit, uns gegenseitig kennenzulernen und herauszufinden, ob wir zusammenpassen.`
+    Das gibt uns Zeit uns gegenseitig kennenzulernen und herauszufinden, ob wir zusammenpassen.`,
   },
   {
     question: "Kann ich auch als kompletter Anfänger mit dir zusammenarbeiten?",
-    answer: "Ja, natürlich."
+    answer: "Ja, natürlich.",
   },
   {
-    question: "Wie oft kann ich dich kontaktieren wenn ich Fragen habe?",
+    question: "Wie oft kann ich dich kontaktieren, wenn ich Fragen habe?",
     answer:
-      "Beim 24/7 Coaching kannst du mir jederzeit schreiben und ich versuche dir sobald es geht zu antworten."
+      "Beim 24/7 Coaching kannst du mir jederzeit schreiben und ich versuche dir sobald es geht zu antworten.",
   },
   {
-    question: "Was passiert wenn ich mitten im Block krank werde?",
+    question: "Was passiert, wenn ich mitten im Block krank werde?",
     answer:
-      "Kein Problem. Kurier dich aus, und sobald du wieder fit bist, passen wir deinen Plan an und machen weiter."
+      "Kein Problem. Kurier dich aus und sobald du wieder fit bist, passen wir deinen Plan an und machen weiter.",
   },
   {
-    question: "Kriege ich von dir Ernährungspläne?",
+    question: "Bekomme ich von dir Ernährungspläne?",
     answer:
-      "Nein. Ich bin kein großer Fan davon dir exakt vorzuschreiben was und wieviel du essen sollst. Viel mehr möchte ich dir das Wissen vermitteln, dich selbst zielgerichtet zu ernähren"
+      "Nein. Ich bin kein großer Fan davon dir exakt vorzuschreiben, was und wieviel du essen sollst. Viel mehr möchte ich dir das Wissen vermitteln, dich selbst zielgerichtet zu ernähren",
   },
   {
     question: "Welche Zahlungsmethoden bietest du an?",
-    answer: "PayPal oder Überweisung."
+    answer: "PayPal oder Überweisung.",
   },
   {
     question: "Bietest du auch Personal Training an?",
     answer:
-      "Falls du im Raum Unterschleißheim wohnst, können wir uns gerne darüber unterhalten. Schreib mir!"
-  }
+      "Falls du im Raum Unterschleißheim wohnst, können wir uns gerne darüber unterhalten. Schreib mir!",
+  },
 ];
 
 const FAQ = () => {

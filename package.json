@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "author": "Alexander May",
   "dependencies": {
-    "@tailwindcss/ui": "^0.1.2",
+    "@tailwindcss/ui": "^0.3.0",
     "gatsby": "2.19.17",
     "gatsby-image": "^2.2.41",
     "gatsby-plugin-anchor-links": "^1.1.0",
@@ -50,7 +50,7 @@
     "eslint-plugin-react-hooks": "^2.5.0",
     "gatsby-plugin-eslint": "2.0.8",
     "prettier": "1.19.1",
-    "tailwindcss": "1.2.0"
+    "tailwindcss": "1.4.6"
   },
   "repository": {
     "type": "git",

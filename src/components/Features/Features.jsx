@@ -8,11 +8,11 @@ const Features = () => {
     {
       title: "Trainingsplanung",
       text: `Individuell auf dich zugeschnitten - abhängig von deinem Alltag, deinem derzeitigen Trainingsstand,
-      deinen Zielen und deinen Trainingsmöglichkeiten.`
+      deinen Zielen und deinen Trainingsmöglichkeiten.`,
     },
     {
       title: "Kommunikation",
-      text: `Wir halten ständig Kontakt und können so auf Änderungen schnell reagieren. Auch bei Fragen und Sorgen kannst du mir jederzeit schreiben.`
+      text: `Wir halten ständig Kontakt und können so auf Änderungen schnell reagieren. Auch bei Fragen und Sorgen kannst du mir jederzeit schreiben.`,
     },
     {
       title: "Ernährungscoaching",
@@ -20,8 +20,8 @@ const Features = () => {
     Gewohnheiten an, die dir auch langfristig dabei helfen, dich besser
     zu ernähren. Ein Mix aus den neuesten wissenschaftlichen
     Erkenntnissen der Ernährungswissenschaft und der
-    Verhaltenspsychologie.`
-    }
+    Verhaltenspsychologie.`,
+    },
   ];
   return (
     <div className="py-16 bg-gray-50 overflow-hidden lg:py-24">
@@ -64,7 +64,7 @@ const Features = () => {
             Was dich erwartet
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-gray-500">
-            Individuell auf dich zugeschnittene Betreuung, in allen wichtigen
+            Individuell auf dich zugeschnittene Betreuung in allen wichtigen
             Bereichen. Von professioneller Trainingsplanung bis hin zum
             Ernährungscoaching.
           </p>
@@ -102,7 +102,7 @@ const Features = () => {
                       Angepasst auf deine Ziele
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Egal ob du ein Athlet bist der stärker, schneller und
+                      Egal ob du ein Athlet bist, der stärker, schneller und
                       explosiver werden möchte, oder einfach nur besser aussehen
                       möchtest. Das Training hilft dir deine Ziele zu erreichen.
                     </p>
@@ -134,7 +134,7 @@ const Features = () => {
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
                       Wir reagieren auf deine Umstände im Alltag und das
-                      Equipment das dir zur Verfügung steht. So kriegst du stets
+                      Equipment, das dir zur Verfügung steht. So entwerfen wir
                       das optimale Training für deine Situation.
                     </p>
                   </div>
@@ -164,8 +164,8 @@ const Features = () => {
                       Ernährung
                     </h5>
                     <p className="mt-2 text-base leading-6 text-gray-500">
-                      Keine starren Ernährungspläne - stattdessen eignest du dir
-                      Gewohnheiten an, die dir auch langfristig dabei helfen,
+                      Keine starren Ernährungspläne. Stattdessen eignest du dir
+                      Gewohnheiten an, die dir auch langfristig dabei helfen
                       dich besser zu ernähren. Ein Mix aus den neuesten
                       wissenschaftlichen Erkenntnissen der
                       Ernährungswissenschaft und der Verhaltenspsychologie.
@@ -288,7 +288,7 @@ const Features = () => {
                       </h5>
                       <p className="mt-2 text-base leading-6 text-gray-500">
                         Regelmäßiger Kontakt über WhatsApp oder Email ermöglicht
-                        es uns, schnell auf Veränderungen zu reagieren und dein
+                        es uns schnell auf Veränderungen zu reagieren und dein
                         Training anzupassen. Auch bei Fragen kannst du dich
                         jederzeit bei mir melden.
                       </p>

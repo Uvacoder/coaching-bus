@@ -18,10 +18,10 @@ const Hero = () => {
                   <span className="text-indigo-600">Ziele erreichen</span>
                 </h2>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Bist du ein Sportler der stärker und schneller werden möchte?
+                  Bist du ein Sportler, der stärker und schneller werden möchte?
                   Oder möchtest du einfach nur besser aussehen? Egal was deine
-                  Ziele sind, ich bin hier um dir zu helfen. Mit individueller
-                  Betreuung angepasst auf dich als Person.
+                  Ziele sind: Ich bin hier um dir zu helfen. Mit individueller
+                  Betreuung angepasst, auf dich als Person.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">

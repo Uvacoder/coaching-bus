@@ -81,19 +81,19 @@ const About = () => {
                   Früher war ich unsportlich und übergewichtig, habe oft
                   versucht mit Fitness anzufangen und abzunehmen. Irgendwann hat
                   es dann Klick gemacht - Ich habe mit dem Rauchen aufgehört,
-                  20kg abgenommen und habe angefangen, regelmäßig ins
+                  20kg abgenommen und habe angefangen regelmäßig ins
                   Fitnessstudio zu gehen.
                   <br />
                   <br />
                   Mittlerweile bin ich leidenschaftlicher Powerlifter und
                   unglaublich interessiert an der Theorie und Wissenschaft
                   hinter Training und Ernährung. Ich habe es mir zum Ziel
-                  gemacht, anderen zu helfen womit ich selbst so lange Probleme
-                  hatte - den richtigen Weg zu finden in einer Fitnessbranche
-                  voller Mythen und Gurus.
+                  gesetzt anderen dabei zu helfen, womit ich selbst so lange
+                  Probleme hatte: Den richtigen Weg zu finden in einer
+                  Fitnessbranche voller Mythen und Gurus.
                   <br />
                   <br />
-                  Ich freue mich sehr darauf mit dir zusammenzuarbeiten!
+                  Ich freue mich sehr darauf mit Dir zusammenzuarbeiten!
                 </p>
               </div>
               <footer className="mt-8">

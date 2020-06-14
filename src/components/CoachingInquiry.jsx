@@ -11,7 +11,7 @@ const CoachingInquiry = () => {
           Coaching Anfrage
         </h2>
         <p className="mt-2 max-w-2xl text-base leading-5 text-gray-500">
-          Je mehr Details desto besser. Ich melde mich bald bei dir!
+          Je mehr Details, desto besser. Ich melde mich bald bei dir!
         </p>
       </div>
       <div className="mt-6 sm:mt-5">

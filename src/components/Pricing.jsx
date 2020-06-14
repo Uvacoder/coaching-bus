@@ -262,8 +262,8 @@ const Pricing = () => {
                   </span>
                 </div>
                 <div className="mt-4 text-lg leading-7 text-gray-500">
-                  Falls du Schüler oder Student bist, erhälst du einen Rabatt
-                  von
+                  Falls du Schüler oder Student bist, erhälst du einen
+                  monatlichen Rabatt von
                   <strong className="font-semibold text-gray-900"> 10€</strong>.
                   Dafür brauche ich nur einen Nachweis.
                 </div>
