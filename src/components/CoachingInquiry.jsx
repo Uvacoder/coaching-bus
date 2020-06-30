@@ -1,17 +1,12 @@
 import React from "react";
 
 const CoachingInquiry = () => {
-  const email = async () => {
-    const response = await fetch("/api/send-email", {
-      method: "POST",
-      mode: "cors",
-    });
-    console.log(response);
-  };
   return (
     <form
       id="coaching-inquiry"
       className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8"
+      action="https://getform.io/f/1543fa64-da3e-4b49-90fc-55a78edddf14"
+      method="POST"
     >
       <div>
         <h2 className="text-3xl leading-9 font-extrabold text-gray-900 sm:text-4xl sm:leading-10">
@@ -105,9 +100,8 @@ const CoachingInquiry = () => {
         <div className="flex justify-end">
           <span className="inline-flex rounded-md shadow-sm">
             <button
-              type="button"
+              type="submit"
               className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
-              onClick={() => email()}
             >
               <svg
                 className="-ml-1 mr-3 h-5 w-5"
