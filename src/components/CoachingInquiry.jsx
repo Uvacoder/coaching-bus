@@ -27,6 +27,8 @@ const CoachingInquiry = () => {
           <div className="mt-1 sm:mt-0 sm:col-span-2">
             <div className="max-w-xs rounded-md shadow-sm">
               <input
+                required
+                vali
                 id="name"
                 name="name"
                 placeholder="Max Mustermann"
@@ -47,6 +49,8 @@ const CoachingInquiry = () => {
             <div className="mt-1 sm:mt-0 sm:col-span-2">
               <div className="max-w-xs rounded-md shadow-sm">
                 <input
+                  required
+                  type="email"
                   id="email"
                   name="email"
                   placeholder="m.mustermann@example.de"
@@ -67,6 +71,7 @@ const CoachingInquiry = () => {
           <div className="mt-1 sm:mt-0 sm:col-span-2">
             <div className="max-w-lg flex rounded-md shadow-sm">
               <textarea
+                required
                 id="general"
                 name="general"
                 rows={3}
@@ -87,6 +92,7 @@ const CoachingInquiry = () => {
           <div className="mt-1 sm:mt-0 sm:col-span-2">
             <div className="max-w-lg flex rounded-md shadow-sm">
               <textarea
+                required
                 id="goals"
                 name="goals"
                 rows={3}
