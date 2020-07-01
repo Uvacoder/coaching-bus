@@ -146,7 +146,7 @@ Die Löschung der Daten erfolgt, wenn die Daten zur Erfüllung vertraglicher ode
 
 ## Externe Zahlungsdienstleister
 
-Wir setzen externe Zahlungsdienstleister ein, über deren Plattformen die Nutzer und wir Zahlungstransaktionen vornehmen können (z.B., jeweils mit Link zur Datenschutzerklärung, Paypal (https://www.paypal.com/de/webapps/mpp/ua/privacy-full), Klarna (https://www.klarna.com/de/datenschutz/), Skrill (https://www.skrill.com/de/fusszeile/datenschutzrichtlinie/), Giropay (https://www.giropay.de/rechtliches/datenschutz-agb/), Visa (https://www.visa.de/datenschutz), Mastercard (https://www.mastercard.de/de-de/datenschutz.html), American Express (https://www.americanexpress.com/de/content/privacy-policy-statement.html)
+Wir setzen externe Zahlungsdienstleister ein, über deren Plattformen die Nutzer und wir Zahlungstransaktionen vornehmen können (z.B., jeweils mit Link zur Datenschutzerklärung, Paypal (https://www.paypal.com/de/webapps/mpp/ua/privacy-full))
 
 Im Rahmen der Erfüllung von Verträgen setzen wir die Zahlungsdienstleister auf Grundlage des Art. 6 Abs. 1 lit. b. DSGVO ein. Im Übrigen setzen wir externe Zahlungsdienstleister auf Grundlage unserer berechtigten Interessen gem. Art. 6 Abs. 1 lit. f. DSGVO ein, um unseren Nutzern effektive und sichere Zahlungsmöglichkeit zu bieten.
 
@@ -200,27 +200,11 @@ Auch im Fall von Auskunftsanfragen und der Geltendmachung von Nutzerrechten, wei
 
 – Instagram (Instagram Inc., 1601 Willow Road, Menlo Park, CA, 94025, USA) – Datenschutzerklärung/ Opt-Out: http://instagram.com/about/legal/privacy/.
 
-– Twitter (Twitter Inc., 1355 Market Street, Suite 900, San Francisco, CA 94103, USA) – Datenschutzerklärung: https://twitter.com/de/privacy, Opt-Out: https://twitter.com/personalization, Privacy Shield: https://www.privacyshield.gov/participant?id=a2zt0000000TORzAAO&status=Active.
-
-– Pinterest (Pinterest Inc., 635 High Street, Palo Alto, CA, 94301, USA) – Datenschutzerklärung/ Opt-Out: https://about.pinterest.com/de/privacy-policy.
-
-– LinkedIn (LinkedIn Ireland Unlimited Company Wilton Place, Dublin 2, Irland) – Datenschutzerklärung https://www.linkedin.com/legal/privacy-policy , Opt-Out: https://www.linkedin.com/psettings/guest-controls/retargeting-opt-out, Privacy Shield: https://www.privacyshield.gov/participant?id=a2zt0000000L0UZAA0&status=Active.
-
-– Xing (XING AG, Dammtorstraße 29-32, 20354 Hamburg, Deutschland) – Datenschutzerklärung/ Opt-Out: https://privacy.xing.com/de/datenschutzerklaerung.
-
-– Wakalet (Wakelet Limited, 76 Quay Street, Manchester, M3 4PR, United Kingdom) – Datenschutzerklärung/ Opt-Out: https://wakelet.com/privacy.html.
-
-– Soundcloud (SoundCloud Limited, Rheinsberger Str. 76/77, 10115 Berlin, Deutschland) – Datenschutzerklärung/ Opt-Out: https://soundcloud.com/pages/privacy.
-
 ## Einbindung von Diensten und Inhalten Dritter
 
 Wir setzen innerhalb unseres Onlineangebotes auf Grundlage unserer berechtigten Interessen (d.h. Interesse an der Analyse, Optimierung und wirtschaftlichem Betrieb unseres Onlineangebotes im Sinne des Art. 6 Abs. 1 lit. f. DSGVO) Inhalts- oder Serviceangebote von Drittanbietern ein, um deren Inhalte und Services, wie z.B. Videos oder Schriftarten einzubinden (nachfolgend einheitlich bezeichnet als “Inhalte”).
 
 Dies setzt immer voraus, dass die Drittanbieter dieser Inhalte, die IP-Adresse der Nutzer wahrnehmen, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner so genannte Pixel-Tags (unsichtbare Grafiken, auch als “Web Beacons” bezeichnet) für statistische oder Marketingzwecke verwenden. Durch die “Pixel-Tags” können Informationen, wie der Besucherverkehr auf den Seiten dieser Website ausgewertet werden. Die pseudonymen Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter anderem technische Informationen zum Browser und Betriebssystem, verweisende Webseiten, Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes enthalten, als auch mit solchen Informationen aus anderen Quellen verbunden werden.
-
-## Google ReCaptcha
-
-Wir binden die Funktion zur Erkennung von Bots, z.B. bei Eingaben in Onlineformularen (“ReCaptcha”) des Anbieters Google LLC, 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA, ein. Datenschutzerklärung: https://www.google.com/policies/privacy/, Opt-Out: https://adssettings.google.com/authenticated.
 
 ## Instagram
 
