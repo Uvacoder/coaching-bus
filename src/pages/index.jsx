@@ -16,7 +16,7 @@ function IndexPage() {
     <Layout>
       <SEO
         keywords={[`online coaching`, `fitness`, `training`, `ernährung`]}
-        title="Home"
+        title="SkollCoaching"
       />
       <Hero />
       <About />
