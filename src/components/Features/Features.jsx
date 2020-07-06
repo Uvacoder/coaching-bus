@@ -362,12 +362,6 @@ const Features = () => {
                   fill="url(#features-svg-pattern-squares-4)"
                 />
               </svg>
-              <img
-                className="relative mx-auto"
-                width="490"
-                src="/img/features/feature-example-2.png"
-                alt=""
-              />
             </div>
           </div>
         </div>
