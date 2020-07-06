@@ -1,5 +1,5 @@
 import React from "react";
-import portrait from "../images/portrait.png";
+import portrait from "../images/alex_portrait.png";
 
 const Testimonials = () => {
   return (
@@ -37,7 +37,11 @@ const Testimonials = () => {
         <div className="relative">
           <blockquote className="mt-8">
             <div className="max-w-3xl mx-auto text-center text-2xl leading-9 font-medium text-gray-900">
-              <p>&ldquo;Alex ist echt der absolute Oberhammer&rdquo;</p>
+              <p>
+                &ldquo;Alex ist ein engagierter und hervorragender Trainer. Er
+                hat mir geholfen, endlich einen Dunk zu schaffen und mich durch
+                seine Betreuung in jeder Hinsicht zu verbessern. &rdquo;
+              </p>
             </div>
             <footer className="mt-8">
               <div className="md:flex md:items-center md:justify-center">

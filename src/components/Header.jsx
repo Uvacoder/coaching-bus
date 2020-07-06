@@ -5,7 +5,7 @@ import logo from "../images/logo.svg";
 import Transition from "./Transition";
 
 // eslint-disable-next-line max-lines-per-function
-const Header = props => {
+const Header = (props) => {
   const [isExpanded, toggleExpansion] = useState(false);
 
   return (
@@ -28,6 +28,7 @@ const Header = props => {
               <div className="-mr-2 flex items-center md:hidden">
                 <button
                   onClick={() => toggleExpansion(true)}
+                  aria-label="Toggle menu"
                   type="button"
                   className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 focus:text-gray-500 transition duration-150 ease-in-out"
                 >
@@ -132,7 +133,7 @@ const Header = props => {
 };
 
 Header.propTypes = {
-  center: PropTypes.bool
+  center: PropTypes.bool,
 };
 
 export default Header;

@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import Header from "../components/Header";
-import hero from "../images/hero.jpg";
+import hero from "../images/small_hero.jpg";
 
 const Hero = () => {
   return (
