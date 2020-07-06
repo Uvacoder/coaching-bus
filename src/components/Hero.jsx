@@ -21,7 +21,7 @@ const Hero = () => {
                   Bist du ein Sportler, der stärker und schneller werden möchte?
                   Oder möchtest du einfach nur besser aussehen? Egal was deine
                   Ziele sind: Ich bin hier um dir zu helfen. Mit individueller
-                  Betreuung angepasst, auf dich als Person.
+                  Betreuung, angepasst auf dich als Person.
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
