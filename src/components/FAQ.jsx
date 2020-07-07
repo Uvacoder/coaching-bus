@@ -25,7 +25,7 @@ const questions = [
   {
     question: "Bekomme ich von dir Ernährungspläne?",
     answer:
-      "Nein. Ich bin kein großer Fan davon dir exakt vorzuschreiben, was und wieviel du essen sollst. Viel mehr möchte ich dir das Wissen vermitteln, dich selbst zielgerichtet zu ernähren",
+      "Nein. Ich bin kein großer Fan davon dir exakt vorzuschreiben, was und wieviel du essen sollst. Viel mehr möchte ich dir das Wissen vermitteln, dich selbst zielgerichtet zu ernähren.",
   },
   {
     question: "Welche Zahlungsmethoden bietest du an?",
