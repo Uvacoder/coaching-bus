@@ -33,7 +33,7 @@ const Pricing = () => {
                     </span>
                   </div>
                   <div className="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                    59€
+                    89€
                     <span className="ml-1 text-2xl leading-8 font-medium text-gray-500">
                       / Monat
                     </span>
@@ -145,7 +145,7 @@ const Pricing = () => {
                     </span>
                   </div>
                   <div className="mt-4 flex items-baseline text-6xl leading-none font-extrabold">
-                    79€
+                    119€
                     <span className="ml-1 text-2xl leading-8 font-medium text-gray-500">
                       / Monat
                     </span>

@@ -28,7 +28,6 @@ const CoachingInquiry = () => {
             <div className="max-w-xs rounded-md shadow-sm">
               <input
                 required
-                vali
                 id="name"
                 name="name"
                 placeholder="Max Mustermann"
