@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className="mt-8">
           <p className="text-center text-base leading-6 text-gray-400">
-            &copy; 2020 SkollCoaching Alexander May. All rights reserved.
+            &copy; 2021 SkollCoaching Alexander May. All rights reserved.
           </p>
         </div>
       </div>
